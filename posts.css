@@ -1,0 +1,32 @@
+.card{
+    width: 300px;
+    height:400px;
+    text-align: left;
+    justify-content: center;
+    background-color:rgb(56, 56, 139);
+    color: rgb(0, 0, 0);
+    border-radius:5px;
+    line-height:1.5;
+
+}
+
+.info{
+    display:flex;
+    justify-content: flex-end;
+
+}
+.comment{
+    background-color: rgb(102, 102, 193);
+    color:black;
+    width:300px;
+    border-radius: 10px;
+
+}
+.button{
+    display:flex;
+  
+    border-radius:10px;
+    cursor: pointer;
+
+
+}
