@@ -1,32 +1,61 @@
+body{
+    background-color: rgb(134, 129, 129);
+    display: flex;
+    justify-content: center;
+    font-family:sans-serif;
+    
+}
+.postcontainer{
+    width: 500px;
+    max-width:1280px;
+
+}
 .card{
-    width: 300px;
-    height:400px;
     text-align: left;
     justify-content: center;
-    background-color:rgb(56, 56, 139);
+    background-color:rgb(255, 255, 255);
     color: rgb(0, 0, 0);
-    border-radius:5px;
-    line-height:1.5;
+    border-radius:8px;
+    
 
 }
-
 .info{
     display:flex;
-    justify-content: flex-end;
-
+    gap:8px;
 }
 .comment{
-    background-color: rgb(102, 102, 193);
-    color:black;
-    width:300px;
-    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    text-align: justify;
+    
 
 }
 .button{
     display:flex;
-  
-    border-radius:10px;
-    cursor: pointer;
+    line-height: 0.5;
+    
+}
+    
+.btn{
+    display: flex;
+    justify-content:flex-start;
+    
+    
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-weight:bold;
+    padding:3px;
+}
 
-
+.post {
+    padding:10px;
+    border-bottom: 2px solid rgb(230 230 230);
+    
+    
+}
+i{
+    display:flex;
+    
 }
